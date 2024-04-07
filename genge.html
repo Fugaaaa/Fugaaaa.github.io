@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <main>
+        <form>
+            <label for="genres">Выберите жанр:</label>
+            <select id="genres" name="genres" onchange="handleGenreChange()">
+              <option value="Хоррор">Хоррор</option>
+              <option value="Комедия">Комедия</option>
+              <option value="Фэнтези">Фэнтези</option>
+            </select>
+          </form>
+          
+          <script>
+            function handleGenreChange() {
+              const selectElement = document.getElementById('genres');
+              const selectedFruit = selectElement.value;
+              alert('Вы выбрали: ' + selectedFruit);
+            }
+          </script>
+          
+    </main>
+</html>
