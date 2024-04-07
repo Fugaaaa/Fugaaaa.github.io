@@ -1,0 +1,26 @@
+main {
+
+}
+
+.avatar {
+
+}
+
+.text  {
+    position: relative;
+    bottom: 400px;
+    left: 600px;
+}
+
+.else {
+    font-size: 20px;
+    position: relative;
+
+    bottom: 50px;
+    width: 100%;
+    border: 1px solid purple;
+}
+
+.video-container {
+    width: 100%;
+}
