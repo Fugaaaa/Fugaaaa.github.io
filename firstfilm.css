@@ -2,25 +2,34 @@ main {
 
 }
 
+.verh {
+    font-size: 40px;
+    background-color: #8e3dda;
+    text-align: center;
+    color: white;
+}
+
 .avatar {
+    position: relative;
+    left: 100px;
+    top: 75px;
 
 }
 
 .text  {
     position: relative;
-    bottom: 400px;
-    left: 600px;
+    bottom: 525px;
+    font-size: 20px;
+    
 }
 
 .else {
     font-size: 20px;
     position: relative;
+    right: 100px;
 
     bottom: 50px;
     width: 100%;
     border: 1px solid purple;
 }
 
-.video-container {
-    width: 100%;
-}
