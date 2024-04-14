@@ -39,27 +39,26 @@ body {
     font-size: 30px;
 
 
-
+    margin-right: 100%;
     bottom: 700px;
     width: 100%;
     border: 1px solid rgb(207, 100, 100);
 }
 
 .about {
-    
+
     color: bisque;
     display: flex;
     align-items: flex-start;
-    font-size: 30px;
+    font-size: 25px;
     position: relative;
-    left: 600px;
+    left: 500px;
     bottom: 800px;
-    justify-content: space-around;
     border: 1px solid rgb(207, 100, 100);
     padding: 10px;
     border-collapse: collapse;
-    width: 100vh;
-    height: 100%h;
+    width: 50%;
+    height: 50%;
 }
 
 .under {
@@ -68,113 +67,7 @@ body {
     color: bisque;
 }
 
-.in {
-    padding: 35px;  
-}
 
-.fo {
-
-}
-
-.one {
-    flex-direction: column;
-    margin: 10px;
-}
-
-.two {
-    flex-direction: column;
-    margin: 10px;
-}
-
-.three {
-    flex-direction: column;
-    margin: 10px;
-}
-
-.four {
-    flex-direction: column;
-    margin: 10px;
-}
-
-.five {
-    flex-direction: column;
-    margin: 10px;
-}
-
-.six {
-    flex-direction: column;
-    margin: 10px;
-}
-
-.seven {
-    flex-direction: column;
-    margin: 10px;
-}
-
-.eight {
-    flex-direction: column;
-    margin: 10px;
-}
-
-.nine {
-    flex-direction: column;
-    margin: 10px;
-}
-
-.ten {
-    flex-direction: column;
-    margin: 10px;
-}
-
-.forst {
-    flex-direction: column;
-    margin: 10px; 
-}
-
-.second {
-    flex-direction: column;
-    margin: 10px; 
-}
-
-.third {
-    flex-direction: column;
-    margin: 10px; 
-}
-
-.fourth {
-    flex-direction: column;
-    margin: 10px; 
-}
-
-.fivth {
-    flex-direction: column;
-    margin: 10px; 
-}
-
-.sith {
-    flex-direction: column;
-    margin: 10px; 
-}
-
-.seventh {
-    flex-direction: column;
-    margin: 10px; 
-}
-
-.eighth {
-    flex-direction: column;
-    margin: 10px; 
-}
-
-.ninth {
-    flex-direction: column;
-    margin: 10px; 
-}
-
-.tenth {
-    flex-direction: column;
-    margin: 10px; 
-}
 
 .container {
     left: 100px;

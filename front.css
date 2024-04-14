@@ -9,39 +9,14 @@ body {
     background-color:  rgb(61, 61, 61);
 }
 
-.movies {
-    position: relative;
-}
-
-.panda {
-    position: relative;
-    border: 1px solid wheat;
+.movie {
+    
+    height: 30%;
     width: 30%;
-    height: 60vh;
+    border: 1px solid gray;
 }
 
-.subtit {
-    font-size: 30px;
-    position: relative;
-    padding: 10px;
-    color: whitesmoke;
-    margin-left: 285px;
+.naz {
+    width: 70%;
 }
 
-.opi {
-    padding: 10px;
-    display: flex;
-    position: relative;
-    margin-left: 250px;
-    font-size: 25px;
-    top: 150px;
-    color:white
-}
-
-.kung {
-    position: relative;
-    margin-right: 100%;
-    bottom: 548px;
-    transform: scale(0.4);
-
-}

@@ -20,36 +20,51 @@
                 <h1>Кунг-Фу Панда 4</h1>
             </div>
         </div>
-        <div class="about">            
-            <div class="in">
-                <div class="one">Жанр:</div>
-                <div class="two">Дата выхода: </div>
-                <div class="three">Режиссёр:</div>
-                <div class="four">Продолжительность:</div>
-                <div class="five">Бюджет:</div>
-                <div class="six">Премьера в мире:</div>
-                <div class="seven">Сценарий:</div>
-                <div class="eight">Продюсер:</div>
-                <div class="nine">Композитор: </div>
-                <div class="ten">Художник:</div>
-            </div>
+        <div class="about">  
+            <table>
+                <tr>
+                    <td>Жанр:</td>
+                    <td>мультфильм, фэнтези, боевик, комедия, приключения, семейный</td>
+                </tr>
+                <tr>
+                    <td>Дата выхода:</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Режиссёр:</td>
+                    <td>Майк Митчелл, Стефани Стайн</td>
+                </tr>
+                <tr>
+                    <td>Продолжительность:</td>
+                    <td>94 мин./01:34 часа</td>
+                </tr>
+                <tr>
+                    <td>Бюджет:</td>
+                    <td>$85 000 000</td>
+                </tr>
+                <tr>
+                    <td>Премьера в мире:</td>
+                    <td>2 марта 2024</td>
+                </tr>
+                <tr>
+                    <td>Сценарий:</td>
+                    <td>Джонатан Айбел, Гленн Бергер, Даррен Лемке</td>
+                </tr>
+                <tr>
+                    <td>Продюсер:</td>
+                    <td>Джонатан Айбел, Гленн Бергер, Ребекка Хантли</td>
+                </tr>
+                <tr>
+                    <td>Композитор:</td>
+                    <td>Стив Маццаро, Ханс Циммер</td>
+                </tr>
+                <tr>
+                    <td>Художник:</td>
+                    <td>Пол Дункан</td>
+                </tr>
 
-            <div class="fo">
-                <div class="forst">мультфильм, фэнтези, боевик, комедия, приключения, семейный</div>
-                <div class="second">2024</div>
-                <div class="third">Майк Митчелл, Стефани Стайн</div>
-                <div class="fourth">94 мин./01:34</div>
-                <div class="fivth">$85 000 000</div>
-                <div class="sith">2 марта 2024</div>
-                <div class="seventh"> Джонатан Айбел, Гленн Бергер, Даррен Лемке</div>
-                <div class="eighth">Джонатан Айбел, Гленн Бергер, Ребекка Хантли</div>
-                <div class="ninth">Стив Маццаро, Ханс Циммер</div>
-                <div class="tenth">Пол Дункан</div>
-
-
-            </div>    
-        </div>
-
+            </table>
+        </div> 
         <div class="under">
             <h1>О фильме</h1>
         </div>
@@ -60,7 +75,56 @@
             <p>Премьера "Кунг-фу Панда 4" состоялась в театре AMC 14 в The Grove в Лос-Анджелесе 3 марта 2024 года, а театральный показ в Соединенных Штатах состоялся 8 марта. Фильм собрал в мировом прокате 347 миллионов долларов, что делает его четвертым по кассовым сборам фильмом 2024 года, и получил неоднозначные отзывы критиков.</p>
         </div>
 
+
+
+
+
+
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class='video-container'>
+                <video src="video.mp4" poster='images.jfif' class='video-player' id='video-player' preload='metadata'></video>
+                <div class='video-hud'>
+                <div class='video-hud__element video-hud__action video-hud__action_play' id='video-hud__action'></div>
+                <div class='video-hud__element video-hud__curr-time' id='video-hud__curr-time'>00:00</div>
+                <progress value='0' max='100' class='video-hud__element video-hud__progress-bar' id='video-hud__progress-bar'></progress>
+                <div class='video-hud__element video-hud__duration' id='video-hud__duration'>00:00</div>
+                <div class='video-hud__element video-hud__mute video-hud__mute_false' id='video-hud__mute'></div>
+                <input type='range' value='100' max='100' title='Громкость' class='video-hud__element video-hud__volume' id='video-hud__volume'>
+                <select title='Скорость' class='video-hud__element video-hud__speed' id='video-hud__speed'>
+                <option value='25'>x0.25</option>
+                <option value='50'>x0.50</option>
+                <option value='75'>x0.75</option>
+                <option value='100' selected>x1.00</option>
+                <option value='125'>x1.25</option>
+                <option value='150'>x1.50</option>
+                <option value='175'>x1.75</option>
+                <option value='200'>x2.00</option>
+                </select>
+                <a class='video-hud__element video-hud__download' title='Скачать' href='video.mp4' download></a>
+                </div>
+            </div>
+
+
 
         </div>
 </body>
